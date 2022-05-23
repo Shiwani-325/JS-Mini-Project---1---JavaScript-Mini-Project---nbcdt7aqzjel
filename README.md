@@ -9,7 +9,7 @@ This will return array of objects each having name and thumbnail URL. While you 
 
 After the data is finished loading, i.e request has finsihed, remove the loader from screen(dont hide it, remove it). Inside the main component, add  div inside it.
 
-Inside that div we will be adding the individual movie components. Each individual movie component will be made up of an anchor tag on the outside with class Example of the basic strucutre is given below. Replace moviename by actual name of the rendered movie <a class="image-link" href="/imagename"> <div class="image" data-id="imagename"> <div class="image-img-wrapper"> </div> <h4>$moviename</h4> </div> </a> img-wrapper will have css, background image property set to the imgUrl of the movie and background size as cover.
+Inside that div we will be adding the individual movie components. Each individual movie component will be made up of an anchor tag on the outside with class Example of the basic strucutre is given below. Replac by actual name of the rendered  <a class="image-link" href="/imagename"> <div class="image" data-id="imagename"> <div class="image-img-wrapper"> </div> </div> </a> img-wrapper will have css, background image property set to the imgUrl of the movie and background size as cover.
 
 index.html has markup defined for #booker class, which will hold elements related to seat booking. Upon clicking the imge-link, the app loads data from the fetchimageAvailability using imagename as parameter.
 
